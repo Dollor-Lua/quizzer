@@ -12,10 +12,18 @@ const server = http.createServer(app);
 
 app.use(express.static(path.join(__dirname, "../source/")));
 
+function readSourceFile(file) {
+    return fs.readFileSync(path.join(__dirname, "../source/", file), "utf8");
+}
+
+function getLessonData(file) {
+    return JSON.parse(fs.readFileSync(path.join(__dirname, "../source/sets/lessons/", file), "utf8"));
+}
+
 app.get("/", (req, res) => {
     if (req.method == "GET") {
         ejs.renderFile(path.join(__dirname, "../source/views/index.ejs"),
-            { _SugarTemplateVersion: version, _NodeVersion: process.versions.node }, (err, str) => {
+            {}, (err, str) => {
                 if (err) {
                     console.log(err);
                     res.status(500).send("An error occurred while rendering the page");
@@ -40,6 +48,24 @@ app.get("/set", (req, res) => {
         }
     } else {
         res.status(400).send("Bad request");
+    }
+});
+
+app.get("/lessons", (req, res) => {
+    if (req.method == "GET") {
+        const groupFile = readSourceFile("sets/lessons/All.json");
+        const groups = JSON.parse(groupFile);
+        const lessonGroups = groups.map((group) => { return { name: group.name, lessons: getLessonData(group.lessons) } })
+
+        ejs.renderFile(path.join(__dirname, "../source/views/lesson.ejs"),
+            { lessonGroups: lessonGroups }, (err, str) => {
+                if (err) {
+                    console.log(err);
+                    res.status(500).send("An error occurred while rendering the page");
+                } else {
+                    res.status(200).send(str);
+                }
+            });
     }
 });
 

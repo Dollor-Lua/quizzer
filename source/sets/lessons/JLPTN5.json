@@ -1,0 +1,68 @@
+[
+    [
+        {
+            "kanji": "一",
+            "kana": "いち",
+            "meaning": "one"
+        },
+        {
+            "kanji": "二",
+            "kana": "に",
+            "meaning": "two"
+        },
+        {
+            "kanji": "三",
+            "kana": "さん",
+            "meaning": "three"
+        },
+        {
+            "kanji": "四",
+            "kana": "よん",
+            "meaning": "four"
+        }
+    ],
+    [
+        {
+            "kanji": "五",
+            "kana": "ご",
+            "meaning": "five"
+        },
+        {
+            "kanji": "六",
+            "kana": "ろく",
+            "meaning": "six"
+        },
+        {
+            "kanji": "七",
+            "kana": "しち",
+            "meaning": "seven"
+        },
+        {
+            "kanji": "八",
+            "kana": "はち",
+            "meaning": "eight"
+        }
+    ],
+    [
+        {
+            "kanji": "九",
+            "kana": "きゅう",
+            "meaning": "nine"
+        },
+        {
+            "kanji": "十",
+            "kana": "じゅう",
+            "meaning": "ten"
+        },
+        {
+            "kanji": "十一",
+            "kana": "じゅういち",
+            "meaning": "eleven"
+        },
+        {
+            "kanji": "十二",
+            "kana": "じゅうに",
+            "meaning": "twelve"
+        }
+    ]
+]
