@@ -25,7 +25,7 @@ function format2(json) {
     return res;
 }
 
-const fileName = "jlptN5verbs";
+const fileName = "jlptN5";
 fs.readFile(`${fileName}.json`, "utf8", (err, data) => {
     if (err) throw err;
     const parsed = JSON.parse(data);
