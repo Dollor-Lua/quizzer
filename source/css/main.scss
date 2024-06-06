@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Shippori+Mincho+B1&display=swap");
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    overflow: hidden;
+
+    background-color: transparent;
+}
+
+:root {
+    color: #ddddea;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.font-0 {
+    font-family: "Noto Sans JP", "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-1 {
+    font-family: "Noto Serif JP", "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-2 {
+    font-family: "Shippori Mincho B1", "Noto Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main-quiz {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    background-color: #161618;
+
+    .streak-text {
+        position: absolute;
+        right: 10vw;
+        top: 50vh;
+        width: 40vw;
+        font-size: 2rem;
+        color: #fff;
+        translate: 0% -50%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: pre;
+    }
+
+    .quiz {
+        position: absolute;
+        width: 40vw;
+        height: 50vh;
+        left: 10vw;
+        top: 50vh;
+        translate: 0% -50%;
+
+        #quiz-question {
+            width: 100%;
+            height: 15vh;
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            line-height: 1;
+        }
+
+        .quiz-options {
+            position: absolute;
+            width: 100%;
+            height: 35vh;
+
+            .quiz-option {
+                position: absolute;
+                width: 45%;
+                height: 15vh;
+                border: none;
+                outline: none;
+                border-radius: 12px;
+                font-size: 2rem;
+
+                color: #000;
+                text-shadow:
+                    -1px -1px 0 #fff,
+                    1px -1px 0 #fff,
+                    -1px 1px 0 #fff,
+                    1px 1px 0 #fff;
+
+                filter: brightness(1); /* transition purposes */
+                transition:
+                    color 0.25s ease,
+                    filter 0.25s ease;
+            }
+
+            .quiz-option.wrong {
+                color: #ff0000;
+            }
+
+            .quiz-option.correct {
+                color: #00ff00;
+            }
+
+            .quiz-option:hover {
+                filter: brightness(0.7);
+            }
+
+            :nth-child(1) {
+                top: 0;
+                left: 0;
+                background-color: #70aeff;
+            }
+
+            :nth-child(2) {
+                top: 0;
+                right: 0;
+                background-color: #ff7e67;
+            }
+
+            :nth-child(3) {
+                bottom: 0;
+                left: 0;
+                background-color: #7aff8c;
+            }
+
+            :nth-child(4) {
+                bottom: 0;
+                right: 0;
+                background-color: #fffd7d;
+            }
+        }
+    }
+}
