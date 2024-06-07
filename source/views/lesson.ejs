@@ -22,7 +22,7 @@
         <h2 class="lesson-group-name"><%= lessonGroups[i].name %></h2>
         <% for (let j = 0; j < lessons.length; j++) { %>
         <button class="lesson" onclick='window.startLesson(<%- JSON.stringify(lessonGroups[i].lessons[j]) %>, <%- i %>, <%- j %>)'>
-            <h3 class="lesson-name">Lesson <%= j + 1 %></h3>
+            <h3 class="lesson-name" id="h-g-<%= i %>-<%= j %>">Lesson <%= j + 1 %></h3>
             <p class="lesson-words"><%= lessons[j].map((x) => x.kanji).join(", ") %></p>
         </button>
         <% } %>
@@ -42,7 +42,7 @@
         </div>
 
         <div id="lesson-textbox" class="lesson-opts hidden">
-            <input type="text" id="lesson-textbox-input" placeholder="Type your answer here">
+            <input type="text" id="lesson-textbox-input" placeholder="Type your answer here" autocomplete="off">
             <button id="lesson-textbox-submit">Submit</button>
         </div>
 

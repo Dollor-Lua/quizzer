@@ -94,3 +94,5 @@ typings/
 # Builds
 dist/
 build/
+
+userdata.json

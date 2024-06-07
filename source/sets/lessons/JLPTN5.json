@@ -64,5 +64,269 @@
             "kana": "じゅうに",
             "meaning": "twelve"
         }
+    ],
+    [
+        {
+            "kanji": "口",
+            "kana": "くち",
+            "meaning": "mouth"
+        },
+        {
+            "kanji": "日",
+            "kana": "ひ",
+            "meaning": "day"
+        },
+        {
+            "kanji": "白い",
+            "kana": "しろい",
+            "meaning": "white"
+        },
+        {
+            "kanji": "百",
+            "kana": "ひゃく",
+            "meaning": "hundred"
+        }
+    ],
+    [
+        {
+            "kanji": "千",
+            "kana": "せん",
+            "meaning": "thousand"
+        },
+        {
+            "kanji": "万",
+            "kana": "まん",
+            "meaning": "ten thousand"
+        },
+        {
+            "kanji": "人",
+            "kana": "ひと",
+            "meaning": "person"
+        },
+        {
+            "kanji": "分",
+            "kana": "ふん",
+            "meaning": "minute"
+        }
+    ],
+    [
+        {
+            "kanji": "土",
+            "kana": "つち",
+            "meaning": "earth"
+        },
+        {
+            "kanji": "時",
+            "kana": "とき",
+            "meaning": "time"
+        },
+        {
+            "kanji": "週",
+            "kana": "しゅう",
+            "meaning": "week"
+        },
+        {
+            "kanji": "月",
+            "kana": "つき",
+            "meaning": "moon"
+        }
+    ],
+    [
+        {
+            "kanji": "午",
+            "kana": "ご",
+            "meaning": "noon"
+        },
+        {
+            "kanji": "年",
+            "kana": "とし",
+            "meaning": "year"
+        },
+        {
+            "kanji": "今",
+            "kana": "いま",
+            "meaning": "now"
+        },
+        {
+            "kanji": "たった今",
+            "kana": "たったいま",
+            "meaning": "just now"
+        }
+    ],
+    [
+        {
+            "kanji": "今日",
+            "kana": "きゅう",
+            "meaning": "today"
+        },
+        {
+            "kanji": "今年",
+            "kana": "ことし",
+            "meaning": "this year"
+        },
+        {
+            "kanji": "今週",
+            "kana": "こんしゅう",
+            "meaning": "this week"
+        },
+        {
+            "kanji": "今月",
+            "kana": "こんげつ",
+            "meaning": "this month"
+        }
+    ],
+    [
+        {
+            "kanji": "木",
+            "kana": "き",
+            "meaning": "tree"
+        },
+        {
+            "kanji": "田",
+            "kana": "た",
+            "meaning": "rice field"
+        },
+        {
+            "kanji": "力",
+            "kana": "ちから",
+            "meaning": "strength, power"
+        },
+        {
+            "kanji": "前",
+            "kana": "まえ",
+            "meaning": "in front of, before"
+        }
+    ],
+    [
+        {
+            "kanji": "午前",
+            "kana": "ごぜん",
+            "meaning": "a.m."
+        },
+        {
+            "kanji": "後",
+            "kana": "あと",
+            "meaning": "after, behind"
+        },
+        {
+            "kanji": "後ろ",
+            "kana": "うしろ",
+            "meaning": "back, behind"
+        },
+        {
+            "kanji": "午後",
+            "kana": "ごご",
+            "meaning": "p.m."
+        }
+    ],
+    [
+        {
+            "kanji": "先",
+            "kana": "さき",
+            "meaning": "preceding, former"
+        },
+        {
+            "kanji": "先週",
+            "kana": "せんじゅう",
+            "meaning": "last week"
+        },
+        {
+            "kanji": "先月",
+            "kana": "せんげつ",
+            "meaning": "last month"
+        },
+        {
+            "kanji": "来る",
+            "kana": "くる",
+            "meaning": "to come"
+        }
+    ],
+    [
+        {
+            "kanji": "来年",
+            "kana": "らいねん",
+            "meaning": "next year"
+        },
+        {
+            "kanji": "来週",
+            "kana": "らいしゅう",
+            "meaning": "next week"
+        },
+        {
+            "kanji": "来月",
+            "kana": "らいげつ",
+            "meaning": "next month"
+        },
+        {
+            "kanji": "男",
+            "kana": "おとこ",
+            "meaning": "man, male"
+        }
+    ],
+    [
+        {
+            "kanji": "男の人",
+            "kana": "おとこのひと",
+            "meaning": "man"
+        },
+        {
+            "kanji": "女",
+            "kana": "おんな",
+            "meaning": "woman, female"
+        },
+        {
+            "kanji": "女の人",
+            "kana": "おんなのひと",
+            "meaning": "woman"
+        },
+        {
+            "kanji": "子",
+            "kana": "こ",
+            "meaning": "child"
+        }
+    ],
+    [
+        {
+            "kanji": "男の子",
+            "kana": "おとこのこ",
+            "meaning": "boy"
+        },
+        {
+            "kanji": "女の子",
+            "kana": "おんなのこ",
+            "meaning": "girl"
+        },
+        {
+            "kanji": "父",
+            "kana": "ちち",
+            "meaning": "father"
+        },
+        {
+            "kanji": "お父さん",
+            "kana": "おとうさん",
+            "meaning": "father"
+        }
+    ],
+    [
+        {
+            "kanji": "火",
+            "kana": "ひ",
+            "meaning": "fire"
+        },
+        {
+            "kanji": "水",
+            "kana": "みず",
+            "meaning": "water"
+        },
+        {
+            "kanji": "お金",
+            "kana": "おかね",
+            "meaning": "money"
+        },
+        {
+            "kanji": "本",
+            "kana": "ほん",
+            "meaning": "book"
+        }
     ]
 ]

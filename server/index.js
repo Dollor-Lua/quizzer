@@ -10,6 +10,8 @@ const version = "1.0.0";
 const app = express();
 const server = http.createServer(app);
 
+let data = {};
+
 app.use(express.static(path.join(__dirname, "../source/")));
 
 function readSourceFile(file) {
@@ -68,6 +70,42 @@ app.get("/lessons", (req, res) => {
             });
     }
 });
+
+app.use("/lesson", (req, res) => {
+    let sdata = "";
+    req.on("data", (chunk) => {
+        sdata += chunk;
+    });
+
+    req.on("end", () => {
+        if (req.method == "POST") {
+            sdata = JSON.parse(sdata);
+            const group = sdata.group;
+            const lesson = sdata.lesson;
+
+            if (!data[group]) {
+                data[group] = {};
+            }
+
+            if (!data[group][lesson]) data[group][lesson] = 0;
+            data[group][lesson]++;
+
+            fs.writeFileSync(path.join(__dirname, "userdata.json"), JSON.stringify(data));
+
+            res.status(200).send("Lesson marked as completed");
+        } else if (req.method == "GET") {
+            res.status(200).send(JSON.stringify(data));
+        } else {
+            res.status(400).send("Bad request");
+        }
+    });
+})
+
+if (!fs.existsSync(path.join(__dirname, "userdata.json"))) {
+    fs.writeFileSync(path.join(__dirname, "userdata.json"), "{}");
+}
+
+data = JSON.parse(fs.readFileSync(path.join(__dirname, "userdata.json"), "utf8"));
 
 app.use("/css", express.static(path.join(__dirname, "../build/css/")));
 

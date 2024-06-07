@@ -16,9 +16,9 @@ const lMemorizeDiv = document.getElementById("lesson-memorize");
 const lMemorizeText = document.getElementById("lesson-memorize-meaning");
 const lMemorizeButton = document.getElementById("lesson-memorize-button");
 
-let inLesson = false;
+(async () => { globalThis.userData = await (await fetch("/lesson")).json(); reloadStyles() })();
 
-wanakana.bind(lInput);
+let inLesson = false;
 
 function memorize(word, kana, meaning) {
     lHeader.innerText = "Memorize this word...";
@@ -99,8 +99,20 @@ function input(word, smallText, request, answer) {
         lSubmit.addEventListener("click", () => {
             if (lInput.value == answer) {
                 lSubmit.removeEventListener("click", () => { });
+                lInput.removeEventListener("keydown", () => { });
                 lTextboxDiv.classList.add("hidden");
                 resolve(lInput.value == answer);
+            }
+        });
+
+        lInput.addEventListener("keydown", (e) => {
+            if (e.key == "Enter") {
+                if (lInput.value == answer) {
+                    lSubmit.removeEventListener("click", () => { });
+                    lInput.removeEventListener("keydown", () => { });
+                    lTextboxDiv.classList.add("hidden");
+                    resolve(lInput.value == answer);
+                }
             }
         });
     });
@@ -115,6 +127,25 @@ function buildBank(data, group, lesson) {
     }
 
     return bank;
+}
+
+function reloadStyles() {
+    for (const h2 of document.getElementsByClassName("lesson-name")) {
+        h2.classList.remove("completion-1", "completion-2");
+    }
+
+    for (const [key, value] of Object.entries(globalThis.userData)) {
+        for (const [key2, value2] of Object.entries(value)) {
+            const h2 = document.getElementById("h-g-" + key + "-" + key2);
+            if (!h2) continue;
+
+            if (value2 == 1) {
+                h2.classList.add("completion-1");
+            } else if (value2 > 1) {
+                h2.classList.add("completion-2");
+            }
+        }
+    }
 }
 
 window.startLesson = async (lessonData, group, lesson) => {
@@ -171,5 +202,25 @@ window.startLesson = async (lessonData, group, lesson) => {
 
     mLessonDiv.classList.add("hidden");
     lViewDiv.classList.remove("hidden");
+
+    fetch("/lesson", {
+        method: "POST",
+        body: JSON.stringify({ group: group, lesson: lesson }),
+        headers: {
+            "Content-Type": "application/json"
+        }
+    });
+
+    if (!globalThis.userData[group]) {
+        globalThis.userData[group] = {};
+    }
+
+    if (!globalThis.userData[group][lesson]) {
+        globalThis.userData[group][lesson] = 0;
+    }
+
+    globalThis.userData[group][lesson]++;
+
     inLesson = false;
 }
+
