@@ -14,6 +14,31 @@
         margin-bottom: 20px;
     }
 
+    #start-review {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 16px;
+        right: 0;
+        top: 0;
+        margin-top: 10px;
+        margin-right: 10px;
+        background-color: #3cac4a;
+        color: #fff;
+        filter: brightness(1);
+
+        transition: filter 0.25s ease;
+
+        &:hover {
+            cursor: pointer;
+            filter: brightness(1.25);
+        }
+    }
+
     .lesson-group-container {
         display: flex;
         flex-wrap: wrap;
@@ -115,7 +140,7 @@
 
                 &:hover {
                     cursor: pointer;
-                    filter: brightness(1.1);
+                    filter: brightness(1.25);
                 }
             }
         }
@@ -144,7 +169,7 @@
 
                 &:hover {
                     cursor: pointer;
-                    filter: brightness(1.1);
+                    filter: brightness(1.25);
                 }
 
                 &.wrong {
@@ -182,7 +207,7 @@
 
                 &:hover {
                     cursor: pointer;
-                    filter: brightness(1.1);
+                    filter: brightness(1.25);
                 }
             }
         }

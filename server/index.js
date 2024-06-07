@@ -71,7 +71,7 @@ app.get("/lessons", (req, res) => {
     }
 });
 
-app.use("/lesson", (req, res) => {
+app.use("/data", (req, res) => {
     let sdata = "";
     req.on("data", (chunk) => {
         sdata += chunk;
@@ -79,16 +79,7 @@ app.use("/lesson", (req, res) => {
 
     req.on("end", () => {
         if (req.method == "POST") {
-            sdata = JSON.parse(sdata);
-            const group = sdata.group;
-            const lesson = sdata.lesson;
-
-            if (!data[group]) {
-                data[group] = {};
-            }
-
-            if (!data[group][lesson]) data[group][lesson] = 0;
-            data[group][lesson]++;
+            data = JSON.parse(sdata);
 
             fs.writeFileSync(path.join(__dirname, "userdata.json"), JSON.stringify(data));
 
