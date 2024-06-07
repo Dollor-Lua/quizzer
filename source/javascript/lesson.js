@@ -70,6 +70,55 @@ function startMultipleChoice(word, smallText, answer, bank) {
     });
 }
 
+function areAnswersMatching(correct, answer) {
+    correct = correct.trim();
+    answer = answer.trim();
+    if (correct == answer) return true;
+
+    if (correct.indexOf(",") != -1 || answer.indexOf(",") != -1) {
+        const corrects = correct.split(",");
+        for (let i = 0; i < corrects.length; i++) {
+            corrects[i] = corrects[i].trim();
+        }
+
+        const answers = answer.split(",");
+        for (let i = 0; i < answers.length; i++) {
+            answers[i] = answers[i].trim();
+        }
+
+        for (let i = 0; i < corrects.length; i++) {
+            for (let j = 0; j < answers.length; j++) {
+                if (areAnswersMatching(corrects[i], answers[j])) return true;
+            }
+        }
+
+        return false;
+    }
+
+    correct = correct.replace(/\(.*\)/g, "").trim();
+    answer = answer.replace(/\(.*\)/g, "").trim();
+    if (correct == answer) return true;
+
+    // replace all written numbers with digits
+    const numbers = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"];
+    for (let i = 0; i < numbers.length; i++) {
+        correct = correct.replace(numbers[i], i + 1);
+        answer = answer.replace(numbers[i], i + 1);
+    }
+
+    const correctA = correct.replace("'", " ");
+    const answerA = answer.replace("'", " ");
+    if (correctA == answerA) return true;
+
+    const correctB = correct.replace("'", "");
+    const answerB = answer.replace("'", "");
+    if (correctB == answerB) return true;
+
+    return correct == answer;
+}
+
+globalThis.areAnswersMatching = areAnswersMatching;
+
 function input(word, smallText, request, answer) {
     lHeader.innerText = "Type the " + request + "...";
     lQuestion.innerText = word;
@@ -101,7 +150,7 @@ function input(word, smallText, request, answer) {
                 lSubmit.removeEventListener("click", () => { });
                 lInput.removeEventListener("keydown", () => { });
                 lTextboxDiv.classList.add("hidden");
-                resolve(lInput.value == answer);
+                resolve(areAnswersMatching(lInput.value == answer));
             }
         });
 
@@ -111,7 +160,7 @@ function input(word, smallText, request, answer) {
                     lSubmit.removeEventListener("click", () => { });
                     lInput.removeEventListener("keydown", () => { });
                     lTextboxDiv.classList.add("hidden");
-                    resolve(lInput.value == answer);
+                    resolve(areAnswersMatching(lInput.value == answer));
                 }
             }
         });
