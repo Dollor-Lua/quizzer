@@ -57,7 +57,7 @@ app.get("/lessons", (req, res) => {
     if (req.method == "GET") {
         const groupFile = readSourceFile("sets/lessons/All.json");
         const groups = JSON.parse(groupFile);
-        const lessonGroups = groups.map((group) => { return { name: group.name, lessons: getLessonData(group.lessons) } })
+        const lessonGroups = groups.map((group) => { return { name: group.name, lessons: getLessonData(group.lessons), simplified: group.simplified ?? false, groupFilter: group.filter ?? undefined } })
 
         ejs.renderFile(path.join(__dirname, "../source/views/lesson.ejs"),
             { lessonGroups: lessonGroups }, (err, str) => {

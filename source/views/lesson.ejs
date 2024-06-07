@@ -25,10 +25,17 @@
         <h2 class="lesson-group-name"><%= lessonGroups[i].name %></h2>
         <div class="lesson-group-container">
             <% for (let j = 0; j < lessons.length; j++) { %>
+            <% if (lessonGroups[i].simplified) { %>
+            <button class="lesson" onclick='window.startLesson(<%- JSON.stringify(lessonGroups[i].lessons[j]) %>, <%- i %>, <%- j %>, true)'>
+                <h3 class="lesson-name" id="h-g-<%= i %>-<%= j %>">Lesson <%= j + 1 %></h3>
+                <p class="lesson-words"><%- "<span>" + lessons[j].map((x) => x.word).join("</span>, <span>") + "</span>" %></p>
+            </button>
+            <% } else { %>
             <button class="lesson" onclick='window.startLesson(<%- JSON.stringify(lessonGroups[i].lessons[j]) %>, <%- i %>, <%- j %>)'>
                 <h3 class="lesson-name" id="h-g-<%= i %>-<%= j %>">Lesson <%= j + 1 %></h3>
                 <p class="lesson-words"><%- "<span>" + lessons[j].map((x) => x.kanji).join("</span>, <span>") + "</span>" %></p>
             </button>
+            <% } %>
             <% } %>
         </div>
         <% } %>

@@ -207,22 +207,93 @@ function reloadReviewData() {
 }
 
 function buildBank(data, group, lesson) {
+    let groupsToChoose = [];
+    if (data[group].groupFilter) {
+        for (const sgroup of data) {
+            if (data[group].groupFilter.includes(sgroup.name)) {
+                groupsToChoose.push(sgroup);
+            }
+        }
+    } else {
+        for (let i = 0; i <= group; i++) {
+            groupsToChoose.push(data[i]);
+        }
+    }
+
     const bank = [];
-    for (let i = 0; i <= group && i < data.length; i++) {
-        for (let j = 0; j <= lesson && j < data[i].lessons.length; j++) {
-            bank.push(...data[i].lessons[j]);
+    for (let i = 0; i < groupsToChoose.length; i++) {
+        for (let j = 0; j <= lesson && j < groupsToChoose[i].lessons.length; j++) {
+            bank.push(...groupsToChoose[i].lessons[j]);
         }
     }
 
     return bank;
 }
 
-window.startLesson = async (lessonData, group, lesson) => {
+async function startSimplifiedLesson(lessonData, group, lesson) {
+    const bank = buildBank(window.lessonGroups, group, lesson);
+    const meaningBank = bank.map((word) => word.meaning);
+
+    let wrong = {};
+
+    for (let i = 0; i < lessonData.length; i += 2) {
+        const word1 = lessonData[i];
+        const word2 = lessonData[i + 1];
+        wrong[word1.word] = 0;
+        wrong[word2.word] = 0;
+
+        await memorize(word1.word, "", word1.meaning);
+        await memorize(word2.word, "", word2.meaning);
+
+        wrong[word1.word] += await startMultipleChoice(word1.word, "", word1.meaning, meaningBank);
+        wrong[word2.word] += await startMultipleChoice(word2.word, "", word2.meaning, meaningBank);
+    }
+
+    for (let i = 0; i < lessonData.length; i++) {
+        const word = lessonData[i];
+        wrong[word.word] += await input(word.word, "", "meaning", word.meaning);
+    }
+
+    const order = Array.from({ length: lessonData.length }, (_, i) => i);
+    order.sort(() => Math.random() - 0.5);
+
+    for (let i = 0; i < lessonData.length; i++) {
+        const word = lessonData[order[i]];
+        wrong[word.word] += await startMultipleChoice(word.word, "", word.meaning, meaningBank);
+    }
+
+    order.sort(() => Math.random() - 0.5);
+
+    for (let i = 0; i < lessonData.length; i++) {
+        const word = lessonData[order[i]];
+        wrong[word.word] += await input(word.word, "", "meaning", word.meaning);
+    }
+
+    mLessonDiv.classList.add("hidden");
+    lViewDiv.classList.remove("hidden");
+
+    const reviewData = [];
+
+    for (const word of lessonData) {
+        // 9 correct since thats how many questions they went through
+        reviewData.push({ word: word.word, wrong: wrong[word.word], correct: 4 });
+    }
+
+    await Data.reviewed(reviewData);
+
+    reloadReviewData();
+
+    inLesson = false;
+}
+
+window.startLesson = async (lessonData, group, lesson, simplified) => {
     if (inLesson) return;
     inLesson = true;
 
     lViewDiv.classList.add("hidden");
     mLessonDiv.classList.remove("hidden");
+
+    if (simplified) return startSimplifiedLesson(lessonData, group, lesson);
 
     const bank = buildBank(window.lessonGroups, group, lesson);
     const kanaBank = bank.map((word) => word.kana);
@@ -280,8 +351,8 @@ window.startLesson = async (lessonData, group, lesson) => {
     const reviewData = [];
 
     for (const word of lessonData) {
-        // 9 correct since thats how many questions they went through
-        reviewData.push({ word: word.kanji, wrong: wrong[word.kanji], correct: 9 });
+        // 7 correct since thats how many questions they went through
+        reviewData.push({ word: word.kanji, wrong: wrong[word.kanji], correct: 7 });
     }
 
     await Data.reviewed(reviewData);
