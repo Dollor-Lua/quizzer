@@ -328,5 +328,1188 @@
             "kana": "ほん",
             "meaning": "book"
         }
+    ],
+    [
+        {
+            "kanji": "日本",
+            "kana": "にほん",
+            "meaning": "Japan"
+        },
+        {
+            "kanji": "日本人",
+            "kana": "にほんじん",
+            "meaning": "Japanese person"
+        },
+        {
+            "kanji": "川",
+            "kana": "かわ",
+            "meaning": "river"
+        },
+        {
+            "kanji": "山",
+            "kana": "やま",
+            "meaning": "mountain"
+        }
+    ],
+    [
+        {
+            "kanji": "雨",
+            "kana": "あめ",
+            "meaning": "rain"
+        },
+        {
+            "kanji": "花",
+            "kana": "はな",
+            "meaning": "flower"
+        },
+        {
+            "kanji": "花火",
+            "kana": "はなび",
+            "meaning": "firework"
+        },
+        {
+            "kanji": "耳",
+            "kana": "みみ",
+            "meaning": "ear"
+        }
+    ],
+    [
+        {
+            "kanji": "手",
+            "kana": "て",
+            "meaning": "hand"
+        },
+        {
+            "kanji": "足",
+            "kana": "あし",
+            "meaning": "foot, leg"
+        },
+        {
+            "kanji": "目",
+            "kana": "め",
+            "meaning": "eye"
+        },
+        {
+            "kanji": "北",
+            "kana": "きた",
+            "meaning": "north"
+        }
+    ],
+    [
+        {
+            "kanji": "南",
+            "kana": "みなみ",
+            "meaning": "south"
+        },
+        {
+            "kanji": "東",
+            "kana": "ひがし",
+            "meaning": "east"
+        },
+        {
+            "kanji": "西",
+            "kana": "にし",
+            "meaning": "west"
+        },
+        {
+            "kanji": "上",
+            "kana": "うえ",
+            "meaning": "over, above"
+        }
+    ],
+    [
+        {
+            "kanji": "上げる",
+            "kana": "あげる",
+            "meaning": "to raise"
+        },
+        {
+            "kanji": "上手",
+            "kana": "じょうず",
+            "meaning": "skillful, proficient"
+        },
+        {
+            "kanji": "下",
+            "kana": "した",
+            "meaning": "under, below"
+        },
+        {
+            "kanji": "下ろす",
+            "kana": "おろす",
+            "meaning": "to lower, to withdraw"
+        }
+    ],
+    [
+        {
+            "kanji": "下手",
+            "kana": "へた",
+            "meaning": "unskillful, awkward"
+        },
+        {
+            "kanji": "中",
+            "kana": "なか",
+            "meaning": "inside, middle"
+        },
+        {
+            "kanji": "右",
+            "kana": "みぎ",
+            "meaning": "right hand side"
+        },
+        {
+            "kanji": "左",
+            "kana": "ひだり",
+            "meaning": "left hand side"
+        }
+    ],
+    [
+        {
+            "kanji": "私",
+            "kana": "わたし",
+            "meaning": "I, me"
+        },
+        {
+            "kanji": "半",
+            "kana": "はん",
+            "meaning": "half, half-past"
+        },
+        {
+            "kanji": "母",
+            "kana": "はは",
+            "meaning": "mother"
+        },
+        {
+            "kanji": "お母さん",
+            "kana": "おかあさん",
+            "meaning": "mother"
+        }
+    ],
+    [
+        {
+            "kanji": "毎",
+            "kana": "まい",
+            "meaning": "each, every"
+        },
+        {
+            "kanji": "毎日",
+            "kana": "まいにち",
+            "meaning": "every day"
+        },
+        {
+            "kanji": "何",
+            "kana": "なに",
+            "meaning": "what"
+        },
+        {
+            "kanji": "何か",
+            "kana": "なにか",
+            "meaning": "something"
+        }
+    ],
+    [
+        {
+            "kanji": "何人",
+            "kana": "なんにん",
+            "meaning": "how many people?"
+        },
+        {
+            "kanji": "何月",
+            "kana": "なんがつ",
+            "meaning": "what month?"
+        },
+        {
+            "kanji": "何時",
+            "kana": "なんじ",
+            "meaning": "what time?"
+        },
+        {
+            "kanji": "何分",
+            "kana": "なんぷん",
+            "meaning": "how many minutes?"
+        }
+    ],
+    [
+        {
+            "kanji": "何本",
+            "kana": "なんぼん",
+            "meaning": "how many thin / long objects?"
+        },
+        {
+            "kanji": "何日",
+            "kana": "なんにち",
+            "meaning": "how many days?"
+        },
+        {
+            "kanji": "友",
+            "kana": "とも",
+            "meaning": "friend"
+        },
+        {
+            "kanji": "気",
+            "kana": "き",
+            "meaning": "spirit, heart"
+        }
+    ],
+    [
+        {
+            "kanji": "生まれる",
+            "kana": "うまれる",
+            "meaning": "to be born"
+        },
+        {
+            "kanji": "先生",
+            "kana": "せんせい",
+            "meaning": "teacher"
+        },
+        {
+            "kanji": "魚",
+            "kana": "さかな",
+            "meaning": "fish"
+        },
+        {
+            "kanji": "大きい",
+            "kana": "おおきい",
+            "meaning": "big"
+        }
+    ],
+    [
+        {
+            "kanji": "大人",
+            "kana": "おとな",
+            "meaning": "adult"
+        },
+        {
+            "kanji": "天",
+            "kana": "てん",
+            "meaning": "sky"
+        },
+        {
+            "kanji": "天ぷら",
+            "kana": "てんぷら",
+            "meaning": "deep-fried fish and vegetables"
+        },
+        {
+            "kanji": "天気",
+            "kana": "てんき",
+            "meaning": "weather"
+        }
+    ],
+    [
+        {
+            "kanji": "空",
+            "kana": "そら",
+            "meaning": "the air, sky"
+        },
+        {
+            "kanji": "電",
+            "kana": "でん",
+            "meaning": "electric"
+        },
+        {
+            "kanji": "電気",
+            "kana": "でんき",
+            "meaning": "electricity, electric light"
+        },
+        {
+            "kanji": "車",
+            "kana": "くるま",
+            "meaning": "car, vehicle"
+        }
+    ],
+    [
+        {
+            "kanji": "電車",
+            "kana": "でんしゃ",
+            "meaning": "(electric) train"
+        },
+        {
+            "kanji": "言う",
+            "kana": "いう",
+            "meaning": "to say"
+        },
+        {
+            "kanji": "語",
+            "kana": "ご",
+            "meaning": "language"
+        },
+        {
+            "kanji": "日本語",
+            "kana": "にほんご",
+            "meaning": "Japanese"
+        }
+    ],
+    [
+        {
+            "kanji": "名",
+            "kana": "な",
+            "meaning": "title, name"
+        },
+        {
+            "kanji": "お名前",
+            "kana": "おなまえ",
+            "meaning": "name"
+        },
+        {
+            "kanji": "店",
+            "kana": "みせ",
+            "meaning": "shop, store"
+        },
+        {
+            "kanji": "馬",
+            "kana": "うま",
+            "meaning": "horse"
+        }
+    ],
+    [
+        {
+            "kanji": "駅",
+            "kana": "えき",
+            "meaning": "station"
+        },
+        {
+            "kanji": "道",
+            "kana": "みち",
+            "meaning": "road, route"
+        },
+        {
+            "kanji": "社",
+            "kana": "しゃ",
+            "meaning": "company"
+        },
+        {
+            "kanji": "国",
+            "kana": "くに",
+            "meaning": "country"
+        }
+    ],
+    [
+        {
+            "kanji": "中国",
+            "kana": "ちゅうごく",
+            "meaning": "China"
+        },
+        {
+            "kanji": "外",
+            "kana": "そと",
+            "meaning": "outside"
+        },
+        {
+            "kanji": "外国",
+            "kana": "がいこく",
+            "meaning": "foreign country"
+        },
+        {
+            "kanji": "学",
+            "kana": "がく",
+            "meaning": "knowledge, study"
+        }
+    ],
+    [
+        {
+            "kanji": "学生",
+            "kana": "がくせい",
+            "meaning": "student"
+        },
+        {
+            "kanji": "大学",
+            "kana": "だいがく",
+            "meaning": "university, college"
+        },
+        {
+            "kanji": "校",
+            "kana": "こう",
+            "meaning": "school"
+        },
+        {
+            "kanji": "学校",
+            "kana": "がっこう",
+            "meaning": "school"
+        }
+    ],
+    [
+        {
+            "kanji": "中学校",
+            "kana": "ちゅうがっこう",
+            "meaning": "junior high school"
+        },
+        {
+            "kanji": "入る",
+            "kana": "はいる",
+            "meaning": "to enter, to get into"
+        },
+        {
+            "kanji": "入れる",
+            "kana": "はいれる",
+            "meaning": "to put in"
+        },
+        {
+            "kanji": "見る",
+            "kana": "みる",
+            "meaning": "to see, to watch"
+        }
+    ],
+    [
+        {
+            "kanji": "見せる",
+            "kana": "みせる",
+            "meaning": "to show, to display"
+        },
+        {
+            "kanji": "門",
+            "kana": "もん",
+            "meaning": "gate"
+        },
+        {
+            "kanji": "間",
+            "kana": "あいだ",
+            "meaning": "between"
+        },
+        {
+            "kanji": "時間",
+            "kana": "じかん",
+            "meaning": "time, hour"
+        }
+    ],
+    [
+        {
+            "kanji": "週間",
+            "kana": "しゅうかん",
+            "meaning": "week(s)"
+        },
+        {
+            "kanji": "何時間",
+            "kana": "なんじかん",
+            "meaning": "how many hours?"
+        },
+        {
+            "kanji": "聞く",
+            "kana": "きく",
+            "meaning": "to listen, to hear, to ask"
+        },
+        {
+            "kanji": "書く",
+            "kana": "かく",
+            "meaning": "to write"
+        }
+    ],
+    [
+        {
+            "kanji": "読む",
+            "kana": "よむ",
+            "meaning": "to read"
+        },
+        {
+            "kanji": "舌",
+            "kana": "した",
+            "meaning": "tongue"
+        },
+        {
+            "kanji": "話す",
+            "kana": "はなす",
+            "meaning": "to speak, to talk"
+        },
+        {
+            "kanji": "電話",
+            "kana": "でんわ",
+            "meaning": "telephone"
+        }
+    ],
+    [
+        {
+            "kanji": "買う",
+            "kana": "かう",
+            "meaning": "to buy"
+        },
+        {
+            "kanji": "行く",
+            "kana": "いく",
+            "meaning": "to go"
+        },
+        {
+            "kanji": "出る",
+            "kana": "でる",
+            "meaning": "to leave, to go out"
+        },
+        {
+            "kanji": "出す",
+            "kana": "だす",
+            "meaning": "to take out, to send"
+        }
+    ],
+    [
+        {
+            "kanji": "出かける",
+            "kana": "でかける",
+            "meaning": "to go out on an outing"
+        },
+        {
+            "kanji": "休み",
+            "kana": "やすみ",
+            "meaning": "rest, vacation, holiday"
+        },
+        {
+            "kanji": "休む",
+            "kana": "やすむ",
+            "meaning": "to rest, take a day off"
+        },
+        {
+            "kanji": "食べる",
+            "kana": "たべる",
+            "meaning": "to eat"
+        }
+    ],
+    [
+        {
+            "kanji": "飲む",
+            "kana": "のむ",
+            "meaning": "to drink"
+        },
+        {
+            "kanji": "立つ",
+            "kana": "たつ",
+            "meaning": "to stand"
+        },
+        {
+            "kanji": "会う",
+            "kana": "あう",
+            "meaning": "to meet"
+        },
+        {
+            "kanji": "会社",
+            "kana": "かいしゃ",
+            "meaning": "company"
+        }
+    ],
+    [
+        {
+            "kanji": "多い",
+            "kana": "おおい",
+            "meaning": "a lot, many"
+        },
+        {
+            "kanji": "多分",
+            "kana": "たぶん",
+            "meaning": "maybe, perhaps"
+        },
+        {
+            "kanji": "小さい",
+            "kana": "ちいさい",
+            "meaning": "small"
+        },
+        {
+            "kanji": "小学校",
+            "kana": "しょうがっこう",
+            "meaning": "elementary school"
+        }
+    ],
+    [
+        {
+            "kanji": "少し",
+            "kana": "すこし",
+            "meaning": "little, few"
+        },
+        {
+            "kanji": "少ない",
+            "kana": "すくない",
+            "meaning": "few, insufficient"
+        },
+        {
+            "kanji": "古い",
+            "kana": "ふるい",
+            "meaning": "old (thing)"
+        },
+        {
+            "kanji": "辛い",
+            "kana": "からい",
+            "meaning": "spicy"
+        }
+    ],
+    [
+        {
+            "kanji": "新しい",
+            "kana": "あたらしい",
+            "meaning": "new"
+        },
+        {
+            "kanji": "新聞",
+            "kana": "しんぶん",
+            "meaning": "newspaper"
+        },
+        {
+            "kanji": "安い",
+            "kana": "やすい",
+            "meaning": "inexpensive, cheap"
+        },
+        {
+            "kanji": "高い",
+            "kana": "たかい",
+            "meaning": "tall, expensive"
+        }
+    ],
+    [
+        {
+            "kanji": "高校",
+            "kana": "こうこう",
+            "meaning": "high school"
+        },
+        {
+            "kanji": "長い",
+            "kana": "ながい",
+            "meaning": "long (distance)"
+        },
+        {
+            "kanji": "円",
+            "kana": "えん",
+            "meaning": "yen (Japanese monetary unit)"
+        },
+        {
+            "kanji": "一つ",
+            "kana": "ひとつ",
+            "meaning": "one (thing)"
+        }
+    ],
+    [
+        {
+            "kanji": "二つ",
+            "kana": "ふたつ",
+            "meaning": "two (things)"
+        },
+        {
+            "kanji": "三つ",
+            "kana": "みっつ",
+            "meaning": "three (things)"
+        },
+        {
+            "kanji": "四つ",
+            "kana": "よっつ",
+            "meaning": "four (things)"
+        },
+        {
+            "kanji": "五つ",
+            "kana": "いつつ",
+            "meaning": "five (things)"
+        }
+    ],
+    [
+        {
+            "kanji": "六つ",
+            "kana": "むっつ",
+            "meaning": "six (things)"
+        },
+        {
+            "kanji": "七つ",
+            "kana": "ななつ",
+            "meaning": "seven (things)"
+        },
+        {
+            "kanji": "八つ",
+            "kana": "やっつ",
+            "meaning": "eight (things)"
+        },
+        {
+            "kanji": "九つ",
+            "kana": "ここのつ",
+            "meaning": "nine (things)"
+        }
+    ],
+    [
+        {
+            "kanji": "十",
+            "kana": "とお",
+            "meaning": "ten (things)"
+        },
+        {
+            "kanji": "一日",
+            "kana": "ついたち",
+            "meaning": "first day of the month"
+        },
+        {
+            "kanji": "二日",
+            "kana": "ふつか",
+            "meaning": "two days, second day of the month"
+        },
+        {
+            "kanji": "三日",
+            "kana": "みっか",
+            "meaning": "three days, third day of the month"
+        }
+    ],
+    [
+        {
+            "kanji": "四日",
+            "kana": "よっか",
+            "meaning": "four days, fourth day of the month"
+        },
+        {
+            "kanji": "五日",
+            "kana": "いつか",
+            "meaning": "five days, fifth day of the month"
+        },
+        {
+            "kanji": "六日",
+            "kana": "むいか",
+            "meaning": "six days, sixth day of the month"
+        },
+        {
+            "kanji": "七日",
+            "kana": "なのか",
+            "meaning": "seven days, seventh day of the month"
+        }
+    ],
+    [
+        {
+            "kanji": "八日",
+            "kana": "ようか",
+            "meaning": "eight days, eighth day of the month"
+        },
+        {
+            "kanji": "九日",
+            "kana": "ここのか",
+            "meaning": "nine days, ninth day of the month"
+        },
+        {
+            "kanji": "十日",
+            "kana": "とおか",
+            "meaning": "ten days, tenth day of the month"
+        },
+        {
+            "kanji": "十一日",
+            "kana": "じゅういちにち",
+            "meaning": "eleven days, eleventh day of the month"
+        }
+    ],
+    [
+        {
+            "kanji": "十二日",
+            "kana": "じゅうににち",
+            "meaning": "twelve days, twelfth day of the month"
+        },
+        {
+            "kanji": "十三日",
+            "kana": "じゅうさんにち",
+            "meaning": "thirteen days, thirteenth day of the month"
+        },
+        {
+            "kanji": "十四日",
+            "kana": "じゅうよっか",
+            "meaning": "fourteen days, fourteenth day of the month"
+        },
+        {
+            "kanji": "十五日",
+            "kana": "じゅうごにち",
+            "meaning": "fifteen days, fifteenth day of the month"
+        }
+    ],
+    [
+        {
+            "kanji": "十六日",
+            "kana": "じゅうろくにち",
+            "meaning": "sixteen days, sixteenth day of the month"
+        },
+        {
+            "kanji": "十七日",
+            "kana": "じゅうしちにち",
+            "meaning": "seventeen days, seventeenth day of the month"
+        },
+        {
+            "kanji": "十八日",
+            "kana": "じゅうはちにち",
+            "meaning": "eighteen days, eighteenth day of the month"
+        },
+        {
+            "kanji": "十九日",
+            "kana": "じゅうくにち",
+            "meaning": "nineteen days, nineteenth day of the month"
+        }
+    ],
+    [
+        {
+            "kanji": "二十日",
+            "kana": "はつか",
+            "meaning": "twenty days, twentieth day of the month"
+        },
+        {
+            "kanji": "一人",
+            "kana": "ひとり",
+            "meaning": "one person"
+        },
+        {
+            "kanji": "二人",
+            "kana": "ふたり",
+            "meaning": "two people"
+        },
+        {
+            "kanji": "三人",
+            "kana": "さんにん",
+            "meaning": "three people"
+        }
+    ],
+    [
+        {
+            "kanji": "四人",
+            "kana": "よにん",
+            "meaning": "four people"
+        },
+        {
+            "kanji": "五人",
+            "kana": "ごにん",
+            "meaning": "five people"
+        },
+        {
+            "kanji": "六人",
+            "kana": "ろくにん",
+            "meaning": "six people"
+        },
+        {
+            "kanji": "七人",
+            "kana": "しちにん",
+            "meaning": "seven people"
+        }
+    ],
+    [
+        {
+            "kanji": "八人",
+            "kana": "はちにん",
+            "meaning": "eight people"
+        },
+        {
+            "kanji": "九人",
+            "kana": "くにん",
+            "meaning": "nine people"
+        },
+        {
+            "kanji": "十人",
+            "kana": "じゅうにん",
+            "meaning": "ten people"
+        },
+        {
+            "kanji": "一分",
+            "kana": "いっぷん",
+            "meaning": "one minute"
+        }
+    ],
+    [
+        {
+            "kanji": "二分",
+            "kana": "にふん",
+            "meaning": "two minutes"
+        },
+        {
+            "kanji": "三分",
+            "kana": "さんぷん",
+            "meaning": "three minutes"
+        },
+        {
+            "kanji": "四分",
+            "kana": "よんぷん",
+            "meaning": "four minutes"
+        },
+        {
+            "kanji": "五分",
+            "kana": "ごふん",
+            "meaning": "five minutes"
+        }
+    ],
+    [
+        {
+            "kanji": "六分",
+            "kana": "ろっぷん",
+            "meaning": "six minutes"
+        },
+        {
+            "kanji": "七分",
+            "kana": "ななふん",
+            "meaning": "seven minutes"
+        },
+        {
+            "kanji": "八分",
+            "kana": "はっぷん",
+            "meaning": "eight minutes"
+        },
+        {
+            "kanji": "九分",
+            "kana": "きゅうふん",
+            "meaning": "nine minutes"
+        }
+    ],
+    [
+        {
+            "kanji": "十分",
+            "kana": "じゅっぷん",
+            "meaning": "ten minutes"
+        },
+        {
+            "kanji": "一時",
+            "kana": "いちじ",
+            "meaning": "one o'clock"
+        },
+        {
+            "kanji": "二時",
+            "kana": "にじ",
+            "meaning": "two o'clock"
+        },
+        {
+            "kanji": "三時",
+            "kana": "さんじ",
+            "meaning": "three o'clock"
+        }
+    ],
+    [
+        {
+            "kanji": "四時",
+            "kana": "よじ",
+            "meaning": "four o'clock"
+        },
+        {
+            "kanji": "五時",
+            "kana": "ごじ",
+            "meaning": "five o'clock"
+        },
+        {
+            "kanji": "六時",
+            "kana": "ろくじ",
+            "meaning": "six o'clock"
+        },
+        {
+            "kanji": "七時",
+            "kana": "しちじ",
+            "meaning": "seven o'clock"
+        }
+    ],
+    [
+        {
+            "kanji": "八時",
+            "kana": "はちじ",
+            "meaning": "eight o'clock"
+        },
+        {
+            "kanji": "九時",
+            "kana": "くじ",
+            "meaning": "nine o'clock"
+        },
+        {
+            "kanji": "十時",
+            "kana": "じゅうじ",
+            "meaning": "ten o'clock"
+        },
+        {
+            "kanji": "十一時",
+            "kana": "じゅういちじ",
+            "meaning": "eleven o'clock"
+        }
+    ],
+    [
+        {
+            "kanji": "十二時",
+            "kana": "じゅうにじ",
+            "meaning": "twelve o'clock"
+        },
+        {
+            "kanji": "一月",
+            "kana": "いちがつ",
+            "meaning": "January"
+        },
+        {
+            "kanji": "二月",
+            "kana": "にがつ",
+            "meaning": "February"
+        },
+        {
+            "kanji": "三月",
+            "kana": "さんがつ",
+            "meaning": "March"
+        }
+    ],
+    [
+        {
+            "kanji": "四月",
+            "kana": "しがつ",
+            "meaning": "April"
+        },
+        {
+            "kanji": "五月",
+            "kana": "ごがつ",
+            "meaning": "May"
+        },
+        {
+            "kanji": "六月",
+            "kana": "ろくがつ",
+            "meaning": "June"
+        },
+        {
+            "kanji": "七月",
+            "kana": "しちがつ",
+            "meaning": "July"
+        }
+    ],
+    [
+        {
+            "kanji": "八月",
+            "kana": "はちがつ",
+            "meaning": "August"
+        },
+        {
+            "kanji": "九月",
+            "kana": "くがつ",
+            "meaning": "September"
+        },
+        {
+            "kanji": "十月",
+            "kana": "じゅうがつ",
+            "meaning": "October"
+        },
+        {
+            "kanji": "十一月",
+            "kana": "じゅういちがつ",
+            "meaning": "November"
+        }
+    ],
+    [
+        {
+            "kanji": "十二月",
+            "kana": "じゅうにがつ",
+            "meaning": "December"
+        },
+        {
+            "kanji": "一本",
+            "kana": "いっぽん",
+            "meaning": "one thin / long object"
+        },
+        {
+            "kanji": "二本",
+            "kana": "にほん",
+            "meaning": "two thin / long objects"
+        },
+        {
+            "kanji": "三本",
+            "kana": "さんぼん",
+            "meaning": "three thin / long objects"
+        }
+    ],
+    [
+        {
+            "kanji": "四本",
+            "kana": "よんほん",
+            "meaning": "four thin / long objects"
+        },
+        {
+            "kanji": "五本",
+            "kana": "ごほん",
+            "meaning": "five thin / long objects"
+        },
+        {
+            "kanji": "六本",
+            "kana": "ろっぽん",
+            "meaning": "six thin / long objects"
+        },
+        {
+            "kanji": "七本",
+            "kana": "ななほん",
+            "meaning": "seven thin / long objects"
+        }
+    ],
+    [
+        {
+            "kanji": "八本",
+            "kana": "はっぽん",
+            "meaning": "eight thin / long objects"
+        },
+        {
+            "kanji": "九本",
+            "kana": "きゅうほん",
+            "meaning": "nine thin / long objects"
+        },
+        {
+            "kanji": "十本",
+            "kana": "じゅっぽん",
+            "meaning": "ten thin / long objects"
+        },
+        {
+            "kanji": "一つ目",
+            "kana": "ひとつめ",
+            "meaning": "first (in a series)"
+        }
+    ],
+    [
+        {
+            "kanji": "二つ目",
+            "kana": "ふたつめ",
+            "meaning": "second (in a series)"
+        },
+        {
+            "kanji": "三つ目",
+            "kana": "みっつめ",
+            "meaning": "third (in a series)"
+        },
+        {
+            "kanji": "四つ目",
+            "kana": "よっつめ",
+            "meaning": "fourth (in a series)"
+        },
+        {
+            "kanji": "五つ目",
+            "kana": "いつつめ",
+            "meaning": "fifth (in a series)"
+        }
+    ],
+    [
+        {
+            "kanji": "六つ目",
+            "kana": "むっつめ",
+            "meaning": "sixth (in a series)"
+        },
+        {
+            "kanji": "七つ目",
+            "kana": "ななつめ",
+            "meaning": "seventh (in a series)"
+        },
+        {
+            "kanji": "八つ目",
+            "kana": "やっつめ",
+            "meaning": "eighth (in a series)"
+        },
+        {
+            "kanji": "九つ目",
+            "kana": "ここのつめ",
+            "meaning": "ninth (in a series)"
+        }
+    ],
+    [
+        {
+            "kanji": "十つ目",
+            "kana": "とおつめ",
+            "meaning": "tenth (in a series)"
+        },
+        {
+            "kanji": "一円",
+            "kana": "いちえん",
+            "meaning": "one yen"
+        },
+        {
+            "kanji": "二円",
+            "kana": "にえん",
+            "meaning": "two yen"
+        },
+        {
+            "kanji": "三円",
+            "kana": "さんえん",
+            "meaning": "three yen"
+        }
+    ],
+    [
+        {
+            "kanji": "百円",
+            "kana": "ひゃくえん",
+            "meaning": "one hundred yen"
+        },
+        {
+            "kanji": "千円",
+            "kana": "せんえん",
+            "meaning": "one thousand yen"
+        },
+        {
+            "kanji": "一万円",
+            "kana": "いちまんえん",
+            "meaning": "ten thousand yen"
+        }
     ]
 ]
