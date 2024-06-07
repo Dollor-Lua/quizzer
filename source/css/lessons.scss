@@ -14,27 +14,39 @@
         margin-bottom: 20px;
     }
 
-    button.lesson {
-        margin-bottom: 10px;
-        padding-bottom: 10px;
-        border: none;
-        outline: none;
-        background-color: transparent;
-        border-bottom: 1px solid #fff;
-        width: fit-content;
-        min-width: 25%;
+    .lesson-group-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        max-height: 95vh;
 
-        * {
-            color: #fff;
-            text-align: left;
-        }
+        button.lesson {
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            border-bottom: 1px solid #fff;
+            width: calc(20% - 15px);
+            margin-left: 15px;
 
-        .lesson-name {
-            font-size: 1.2rem;
-        }
+            * {
+                color: #fff;
+                text-align: left;
+            }
 
-        &:hover {
-            cursor: pointer;
+            .lesson-name {
+                font-size: 1.2rem;
+            }
+
+            .lesson-words {
+                height: 17px;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
