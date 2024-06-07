@@ -1,12 +1,16 @@
 # Quizzer
 
-Simple quiz app with a focus on Japanese
+Simple quiz webapp with a focus on Japanese and learning kanji vocab
 
 Lessons page is located at localhost:3000/lessons\*, and quiz page is located at localhost:3000
 
 Read below on how to add your own quiz/lessons or how to change between quizes
 
 \*The lesson input has a built in Japanese Kana IME, meaning you do not need a japanese keyboard to type kana
+
+![Lessons Page](https://github.com/Dollor-Lua/quizzer/blob/main/assets/screenshot.png?raw=true)
+
+Originally starting as a test to see if I could remake a quiz app in javascript with as few lines (spoilers: not with server code), I continued onto this by adding the /lessons page as a remake of another paid app. I believe everyone should have the ability to educate themselves for free, and good sources of education should always be available. This app is in no way complete, and doesn't contain all JLPT vocab (in fact, currently it is only N5 _kanji_ vocab), and if you happen to know of the paid app it has around 1300 lessons, all for a one time fee of $10.99 (The app is named Kanji! on the apple app store)
 
 ## Installation & Setup
 
