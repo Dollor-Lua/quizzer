@@ -1,6 +1,17 @@
 [
     {
         "name": "JLPT N5",
-        "lessons": "JLPTN5.json"
+        "lessons": "JLPTN5.json",
+        "filter": [
+            "JLPT N5"
+        ]
+    },
+    {
+        "name": "JLPT N5 Particles",
+        "lessons": "JLPTN5Particles.json",
+        "simplified": true,
+        "filter": [
+            "JLPT N5 Particles"
+        ]
     }
 ]

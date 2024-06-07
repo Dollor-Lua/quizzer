@@ -1,0 +1,116 @@
+[
+    [
+        {
+            "word": "は",
+            "meaning": "topic marker"
+        },
+        {
+            "word": "が",
+            "meaning": "subject marker"
+        },
+        {
+            "word": "を",
+            "meaning": "object marker"
+        },
+        {
+            "word": "の",
+            "meaning": "possession"
+        }
+    ],
+    [
+        {
+            "word": "に",
+            "meaning": "destination particle, in, at, on, to (indicates direction/destination)"
+        },
+        {
+            "word": "へ",
+            "meaning": "to (indicates direction/destination)"
+        },
+        {
+            "word": "ね",
+            "meaning": "right?, isn't it?, eh?"
+        },
+        {
+            "word": "よ",
+            "meaning": "you know?, emphasis"
+        }
+    ],
+    [
+        {
+            "word": "も",
+            "meaning": "also, too"
+        },
+        {
+            "word": "と",
+            "meaning": "and, with, as (connecting particle)"
+        },
+        {
+            "word": "や",
+            "meaning": "and, or (casual, connecting particle)"
+        },
+        {
+            "word": "か",
+            "meaning": "question particle"
+        }
+    ],
+    [
+        {
+            "word": "から",
+            "meaning": "because, since, from"
+        },
+        {
+            "word": "ので",
+            "meaning": "because of, given that, since ~"
+        },
+        {
+            "word": "だけ",
+            "meaning": "only, just, as much as ~"
+        },
+        {
+            "word": "か～か",
+            "meaning": "or (this or that)"
+        }
+    ],
+    [
+        {
+            "word": "まで",
+            "meaning": "until, to, as far as"
+        },
+        {
+            "word": "けれども",
+            "meaning": "but, however, although ~"
+        },
+        {
+            "word": "けど",
+            "meaning": "but, however, although ~"
+        }
+    ],
+    [
+        {
+            "word": "んです",
+            "meaning": "explanation, emphasis"
+        },
+        {
+            "word": "のです",
+            "meaning": "explanation, emphasis"
+        },
+        {
+            "word": "たり～たり",
+            "meaning": "doing things like ~ and ~"
+        }
+    ],
+    [
+        {
+            "word": "より～ほうが",
+            "meaning": "[2] is more than [1]"
+        },
+        {
+            "word": "お・ご",
+            "meaning": "polite marker, honorific prefix"
+        },
+        {
+            "word": "なあ",
+            "meaning": "sentence ending particle, confirmation, admiration"
+        }
+    ]
+]
