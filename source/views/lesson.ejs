@@ -20,17 +20,19 @@
         <% for (let i = 0; i < lessonGroups.length; i++) { %>
         <% const lessons = lessonGroups[i].lessons; %>
         <h2 class="lesson-group-name"><%= lessonGroups[i].name %></h2>
-        <% for (let j = 0; j < lessons.length; j++) { %>
-        <button class="lesson" onclick='window.startLesson(<%- JSON.stringify(lessonGroups[i].lessons[j]) %>, <%- i %>, <%- j %>)'>
-            <h3 class="lesson-name" id="h-g-<%= i %>-<%= j %>">Lesson <%= j + 1 %></h3>
-            <p class="lesson-words"><%= lessons[j].map((x) => x.kanji).join(", ") %></p>
-        </button>
-        <% } %>
+        <div class="lesson-group-container">
+            <% for (let j = 0; j < lessons.length; j++) { %>
+            <button class="lesson" onclick='window.startLesson(<%- JSON.stringify(lessonGroups[i].lessons[j]) %>, <%- i %>, <%- j %>)'>
+                <h3 class="lesson-name" id="h-g-<%= i %>-<%= j %>">Lesson <%= j + 1 %></h3>
+                <p class="lesson-words"><%= lessons[j].map((x) => x.kanji).join(", ") %></p>
+            </button>
+            <% } %>
+        </div>
         <% } %>
     </div>
 
     <div id="main-lesson" class="hidden">
-        <p id="lesson-header">Memorize this word...</p>
+        <p id="lesson-header">ka...</p>
         <h2 id="lesson-question">ka</h2>
         <h3 id="lesson-small-text">ka</h3>
 
