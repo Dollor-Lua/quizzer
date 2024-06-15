@@ -1,3 +1,5 @@
+import * as Data from "./data.js";
+
 function getReviewWords(history) {
     const words = [];
 
@@ -6,7 +8,7 @@ function getReviewWords(history) {
             if (!words.includes(word)) {
                 const lastReview = session.lastReview;
                 const daysSinceLastReview = (Date.now() - lastReview) / 1000 / 60 / 60 / 24;
-                const reviewInterval = Math.floor(word.easeFactor * 1000 * 60 * 60 * 24);
+                const reviewInterval = Math.floor(Data.getLastReviewData(word).easeFactor * 1000 * 60 * 60 * 24) / 1000 / 60 / 60 / 24;
 
                 if (daysSinceLastReview >= reviewInterval)
                     words.push(word);
